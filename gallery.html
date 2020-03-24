@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::gallery::</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+		$(function(){
+			$(".page-top").click(function(){
+				$("html,body").animate({scrollTop:0},1000);
+			});
+			$(window).scroll(function(){
+				var scrollY = $(window).scrollTop();
+				if(scrollY>=30){
+					$(".page-top").addClass("active");
+				}else{
+					$(".page-top").removeClass("active");
+				}
+			});
+		});
+	</script>
+	<style>
+		.bg-ibori {background-color: #fffae4;}
+	</style>
+</head>
+<body>
+	<div class="bg-ibori">
+		<nav class="navbar navbar-expand-lg navbar-light bg-fffae4">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#!"><img src="images/pattern_3.png" alt="" style="width: 35px"></a>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">갤러리</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#!">상품정보</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#!">너굴로드</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#!">자주묻는 질문</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+	<div class="bg-img7 d-flex">
+		<div class="container m-auto">
+			<h2 class="">갤러리</h2>
+		</div>
+	</div>
+	
+	
+	<footer class="bg-img6">
+		<div class="container" style="position: relative;">
+			<div class="page-top" style="position: fixed; bottom: 0; right: 50px;">
+				<img src="images/pagetop__pc.png" alt="" class="w-80"
+				style="cursor: pointer;">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

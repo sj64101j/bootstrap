@@ -1,9 +1,11 @@
 @charset utf-8;
+@font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal; }
+body {font-family: 'S-CoreDream-9Black';}
 .bg-img1 {
 	background-image: url(../images/visual_bg_pc.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 965px; width: 100%;
+	height: 965px;
 }
 .bg-img2 {
 	background-image: url(../images/content_bg01_pc.png);
@@ -16,3 +18,45 @@
 	background-repeat: repeat-x;
 	height: 50px;
 }
+.bg-img4{
+	background-image: url(../images/slide_main.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 476px;
+}
+
+button.slick-prev {
+	display: none !important;
+}
+button.slick-next {
+	display: none !important;
+}
+.pcon{opacity: 0;}
+.bView01:hover .pcoff{opacity: 0;}
+.bView01:hover .pcon{opacity: 1;}
+.setoff{opacity: 1;}
+.seton{position:absolute; top: 10px; opacity: 0;}
+.bView02:hover .setoff{opacity:0}
+.bView02:hover .seton{opacity:1;}
+
+.bg-img5{
+	background-image: url(../images/main_bottom_bgi.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 1250px;
+}
+.vPcon{opacity: 0;}
+.bView03:hover .vPcoff{opacity: 0;}
+.bView03:hover .vPcon{opacity: 1;}
+
+.bg-img6 {
+	background-image: url(../images/footer_bg_pc.png);
+	height: 78px;
+}
+.page-top{opacity: 0}
+.page-top.active {opacity: 1;}
+.bg-img7 {
+	background-image: url(../images/sub_main_bg_top.png);
+	height: 700px;
+}
+.bg-img7 h2 {text-align: center;}
