@@ -12,6 +12,41 @@
 	<script src="js/slick.min.js"></script>
 	<script>
 		$(function(){
+			$('.autoplay').slick({ //slide start
+				dots:false,
+				infinite:true,
+				speed:300,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 2000,
+				// nextArrow: '.next_slick',
+				// prevArrow: '.prev_slick',
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 1,
+							infinite: true
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
+					}
+				 ]
+			}); //slide end
 			$(".page-top").click(function(){
 				$("html,body").animate({scrollTop:0},1000);
 			});
@@ -35,7 +70,7 @@
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a class="navbar-brand" href="#!"><img src="images/pattern_3.png" alt="" style="width: 35px"></a>
+			<a class="navbar-brand" href="index.html"><img src="images/pattern_3.png" alt="" style="width: 35px"></a>
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -54,15 +89,107 @@
 				</ul>
 			</div>
 		</nav>
-
 	</div>
-	<div class="bg-img7 d-flex">
+	
+	<!--top-->
+	<div class="bg-img7 d-flex pb-5">
 		<div class="container m-auto">
 			<h2 class="">갤러리</h2>
 		</div>
 	</div>
 	
 	
+	<!--content-->
+	<div class="bg-img8 pt-5">
+			<!--slide-->
+		<div>
+			<img src="images/sub_slide_line_top.png" class="w-100 d-block" alt="">
+		</div>
+		<div class="bg-ibori pb-5">
+			<div class="container pt-4">
+				<div class="row d-flex mb-3" style="font-size: 1.5em">
+					<p class="m-auto">갤러리</p>
+				</div>
+				<div class="row px-5">
+					<div class="autoplay w-100">
+						<div><img src="images/photo1.png" class="w-100" alt=""></div>
+						<div><img src="images/photo2.png" class="w-100" alt=""></div>
+						<div><img src="images/photo3.png" class="w-100" alt=""></div>
+						<div><img src="images/photo4.png" class="w-100" alt=""></div>
+						<div><img src="images/photo5.png" class="w-100" alt=""></div>
+						<div><img src="images/photo6.png" class="w-100" alt=""></div>
+						<div><img src="images/photo7.png" class="w-100" alt=""></div>
+						<div><img src="images/photo8.png" class="w-100" alt=""></div>
+						<div><img src="images/photo9.png" class="w-100" alt=""></div>
+						<div><img src="images/photo10.png" class="w-100" alt=""></div>
+						<div><img src="images/photo11.png" class="w-100" alt=""></div>
+						<div><img src="images/photo12.png" class="w-100" alt=""></div>
+						<div><img src="images/photo13.png" class="w-100" alt=""></div>
+						<div><img src="images/photo14.png" class="w-100" alt=""></div>
+						<div><img src="images/photo15.png" class="w-100" alt=""></div>
+						<div><img src="images/photo16.png" class="w-100" alt=""></div>
+						<div><img src="images/photo17.png" class="w-100" alt=""></div>
+						<div><img src="images/photo18.png" class="w-100" alt=""></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mb-5">
+			<img src="images/sub_slide_line_bottom.png" class="w-100 d-block" alt="">
+		</div>
+	<!--slide end-->
+	
+	<!--gallery-->
+			<div class="container pt-3 pt-md-0">
+				<div class="row pt-3 pt-md-5">
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery1.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery2.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery3.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery4.png" alt="">
+					</div></div>
+				</div>
+				<div class="row pt-3 pt-md-5">
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery5.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery6.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery7.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery8.png" alt="">
+					</div></div>
+				</div>
+				<div class="row pt-3 pt-md-5">
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery9.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery10.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0 d-flex"><div class="m-auto">
+						<img src="images/gallery11.png" alt="">
+					</div></div>
+					<div class="col-md-3 col-sm-6 d-flex py-3 py-md-0"><div class="m-auto">
+						<img src="images/gallery12.png" alt="">
+					</div></div>
+				</div>
+		</div>
+		<div>
+			<img src="images/spec_bg01_pc.png" alt="">
+		</div>
+	</div>
+	
+	<!--footer-->
 	<footer class="bg-img6">
 		<div class="container" style="position: relative;">
 			<div class="page-top" style="position: fixed; bottom: 0; right: 50px;">

@@ -57,6 +57,36 @@ button.slick-next {
 .page-top.active {opacity: 1;}
 .bg-img7 {
 	background-image: url(../images/sub_main_bg_top.png);
+	background-position: center;
 	height: 700px;
 }
 .bg-img7 h2 {text-align: center;}
+.bg-img8{
+	background-image: url(../images/sub_main_bg_bottom.png);
+}
+
+
+@media (max-width:959px) and (min-width:561px){
+	
+}
+@media (max-width:560px){
+	.bg-img7 {
+		background-image: url(../images/sub_main_bg_top-mb.png);
+		background-position: center;
+		height: 700px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
