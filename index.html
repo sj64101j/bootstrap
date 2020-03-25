@@ -14,28 +14,39 @@
 	<script>
 		$(function(){
 			$('.autoplay').slick({
+				dots:false,
+				infinite:true,
+				speed:300,
 				slidesToShow: 3,
 				slidesToScroll: 1,
 				autoplay: true,
 				autoplaySpeed: 2000,
-//				responsive: [
-//					{
-//						breakpoint: 1920,
-//						settings: {
-//							slidesToShow: 3,
-//							slidesToScroll: 3,
-//							infinite: true,
-//							dots: false
-//						}
-//					},
-//					{
-//						breakpoint: 576,
-//						settings: {
-//							slidesToShow: 1,
-//							slidesToScroll: 1
-//						}
-//					}
-//				 ]
+				// nextArrow: '.next_slick',
+				// prevArrow: '.prev_slick',
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 1,
+							infinite: true
+						}
+					},
+					{
+						breakpoint: 600,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1
+						}
+					}
+				 ]
 			});
 			$(".page-top").click(function(){
 				$("html,body").animate({scrollTop:0},1000);
@@ -87,7 +98,7 @@
 		</div>
 	</div>
 	
-	
+	<!-- -->
 	<div class="bg-img2 py-5" style="position: relative;">
 		<div class="container py-5">
 			<div class="row" style="position: relative;">
@@ -114,47 +125,52 @@
 		<div class="container pt-5">
 			<div class="bg-img3 mt-5"></div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="bg-img4">
-					<p class="mb-3" >닌텐도 스위치 동물의 숲 에디션 미리보기</p>
-				<div>
-			</div>
-			<div class="row">
-					<div class="autoplay">
-						<div><img src="images/switch_1.png" alt=""></div>
-						<div>
-							<img src="images/switch_2.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_3.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_4.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_5.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_6.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_7.png" alt="">
-						</div>
-						<div>
-							<img src="images/switch_8.png" alt="">
+		
+		<div><img src="images/slide_line_top.png" alt=""></div>
+			<div class="bg-ibori pb-5">
+				<div class="container pt-4">
+					<div class="row d-flex mb-3" style="font-size: 1.2em">
+						<p class="m-auto">닌텐도 스위치 동물의 숲 에디션 미리보기</p>
+					</div>
+					<div class="row px-5">
+						<div class="autoplay w-100">
+							<div>
+							<img src="images/switch_1.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_2.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_3.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_4.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_5.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_6.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_7.png" class="w-100" alt="">
+							</div>
+							<div>
+								<img src="images/switch_8.png" class="w-100" alt="">
+							</div>
 						</div>
 					</div>
-					</div>
-				</div>
-				<div class="col-12 pt-3 pt-md-5">
-					<a href="#!" style="position: relative;display:block" class="bView02">
-						<img src="images/set_btn__pc_off.png" alt="" class="w-100 setoff py-3 py-md-5">
-						<img src="images/set_btn__pc_on.png" alt="" class="w-100 seton py-3 py-md-5"></a>
 				</div>
 			</div>
-		</div>
-	</div>
+				<div><img src="images/slide_line_bottom.png" alt=""></div>
+					<div class="container">
+						<div class="col-12 pt-3 pt-md-5">
+							<a href="#!" style="position: relative;display:block" class="bView02">
+								<img src="images/set_btn__pc_off.png" alt="" class="w-100 setoff py-3 py-md-5">
+								<img src="images/set_btn__pc_on.png" alt="" class="w-100 seton py-3 py-md-5"></a>
+						</div>
+					</div>
+			</div>
 	<div class="bg-img5" style="position: relative;">
 		<a href="#!" class="d-block bView03">
 			<img src="images/visual_movie__pc_off.png" alt="" style="position:absolute; bottom:100px; left: 50%; transform: translateX(-50%);" class="vPcoff">
