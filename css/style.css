@@ -64,6 +64,9 @@ button.slick-next {
 .bg-img8{
 	background-image: url(../images/sub_main_bg_bottom.png);
 }
+.bg-img9{
+	background-image: url(../images/sub_bg.png);
+}
 
 
 @media (max-width:959px) and (min-width:561px){
