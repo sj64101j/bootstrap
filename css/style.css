@@ -35,7 +35,7 @@ button.slick-next {
 .bView01:hover .pcoff{opacity: 0;}
 .bView01:hover .pcon{opacity: 1;}
 .setoff{opacity: 1;}
-.seton{position:absolute; top: 10px; opacity: 0;}
+.seton{position:absolute; top: 10px; left: 0; opacity: 0;}
 .bView02:hover .setoff{opacity:0}
 .bView02:hover .seton{opacity:1;}
 
