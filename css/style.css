@@ -67,7 +67,17 @@ button.slick-next {
 .bg-img9{
 	background-image: url(../images/sub_bg.png);
 }
-
+.bg-img10{
+	background-image: url(../images/back_ground.png);
+}
+.sTitle{opacity: 1;}
+.sTitleB{position:absolute; top: 0; left: 15px;opacity: 1;}
+.bView04:hover .sTitle{opacity:1}
+.bView04:hover .sTitleB{opacity:0;}
+.cTitle{opacity: 1;}
+.cTitleB{position:absolute; top: 0; left: 15px;opacity: 1;}
+.bView05:hover .cTitle{opacity:1}
+.bView05:hover .cTitleB{opacity:0;}
 
 @media (max-width:959px) and (min-width:561px){
 	
