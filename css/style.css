@@ -70,15 +70,88 @@ button.slick-next {
 .bg-img10{
 	background-image: url(../images/back_ground.png);
 }
+.bView04{position: relative;}
 .sTitle{opacity: 1;}
-.sTitleB{position:absolute; top: 0; left: 15px;opacity: 1;}
-.bView04:hover .sTitle{opacity:1}
+.sTitleB{position:absolute; top: 0;opacity: 1;}
+.bView04:hover .sTitle{opacity:1;}
 .bView04:hover .sTitleB{opacity:0;}
+.bView05{position: relative;}
 .cTitle{opacity: 1;}
-.cTitleB{position:absolute; top: 0; left: 15px;opacity: 1;}
+.cTitleB{position:absolute; top: 0;left: 0;opacity: 1;}
 .bView05:hover .cTitle{opacity:1}
 .bView05:hover .cTitleB{opacity:0;}
-
+.sTitleWrap{
+	background-color: #61b8a2;
+	width: 100%;height: 6px;
+	margin-top: 10px; position: relative;
+}
+.sTitleWrap:after{
+	content: "";display: block;
+	border-width:20px;border-style:solid;
+	border-color:#61b8a2 transparent transparent transparent;
+	position: absolute; top: 0;left: 50%;
+	transform: translateX(-50%);
+}
+.cTitleWrap{
+	background-color: #61b8a2;
+	width: 100%;height: 6px;
+	margin-top: 15px; position: relative;
+}
+.cTitleWrap:after{
+	content: "";display: block;
+	border-width:20px;border-style:solid;
+	border-color:#61b8a2 transparent transparent transparent;
+	position: absolute; top: 0;left: 50%;
+	transform: translateX(-50%);
+}
+.bg-img11{
+	background-image: url(../images/sub_line.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+.iTxt{color: #483c23;}
+.iTxt:before{
+	content: "";display: inline-block;
+	background-image: url(../images/tree_icon.png);
+	width: 26px;height: 26px; margin-right: 10px;
+}
+.iTxt span{
+	font-size: 1.2em;
+}
+.iTxt2{
+	border: 2px solid #61b8a2;
+	border-radius: 10px;
+}
+.tColor{color: #483c23}
+.bg-img12{
+	background-image: url(../images/back_ground2.png);
+}
+.mangaWrap{position: relative;}
+.manga{
+	position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 60px;
+	margin-left: 110px;
+}
+.manga:nth-child(2){
+	margin-top: 60px;
+	margin-left: -40px;
+}
+.bg-img13{
+	background-image: url(../images/bg-img13.png);
+}
+.bView06{position: relative;}
+.closeon{opacity: 1;}
+.closeoff{position:absolute; top: 0;left: 0; opacity: 0;}
+.bView06:hover .closeon{opacity:0;}
+.bView06:hover .closeoff{opacity:1;}
+.bg-img14{
+	background-image: url(../images/bg_manga__pc.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 @media (max-width:959px) and (min-width:561px){
 	
 }
