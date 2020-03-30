@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>::무인도 생활 알아보기::</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+		$(function(){
+			$(".page-top").click(function(){
+				$("html,body").animate({scrollTop:0},1000);
+			});
+			$(window).scroll(function(){
+				var scrollY = $(window).scrollTop();
+				if(scrollY>=30){
+					$(".page-top").addClass("active");
+				}else{
+					$(".page-top").removeClass("active");
+				}
+			});
+		});
+	</script>
+	<style>
+		.bg-ibori {background-color: #fffae4;}
+	</style>
+</head>
+<body>
+<!--nav-->
+	<div class="bg-ibori">
+		<nav class="navbar navbar-expand-lg navbar-light bg-fffae4">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="index.html"><img src="images/pattern_3.png" alt="" style="width: 35px"></a>
+
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav mr-auto mt-2 mt-md-0">
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">갤러리</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="information.html">상품정보</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="manga.html">너굴로드</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="question.html">자주묻는 질문</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
+	<!--main-->
+	<div class="bg-img8">
+		<div class="container">
+			<div class="row pb-3">
+				<div class="col-9 col-md-11"></div>
+				<div class="col-3 col-md-1">
+					<a href="https://www.nintendo.co.kr/software/switch/"><img src="images/Nintendo_Switch_logo,_square.png" class="w-80 w-md-100" alt=""></a>
+				</div>
+			</div>
+			<div class="row pb-5">
+				<div class="col-md-4"></div>
+				<div class="col-md-4 pl-2">
+					<img src="images/movie_ttl__pc.png" class="w-100" alt="">
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+			<div class="row">
+				<div class="movie clearfix pl-5 pb-5">
+					<img src="images/switch_joyconL.png" alt="">
+					<div style="float: left">
+						<img src="images/switch_display.png" alt="">
+						<iframe id="yt" width="640" height="360" src="https://www.youtube.com/embed/QZMaL6mp35Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+					<img src="images/switch_joyconR.png" alt="">
+				</div>
+			</div>
+			<div class="video">
+				<div class="row pb-3">
+					<div class="col-md-4">
+						<a href="play.html"><img src="images/video1.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play2.html"><img src="images/video2.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play3.html"><img src="images/video3.png" class="w-100" alt=""></a>
+					</div>
+				</div>
+				<div class="row pb-3">
+					<div class="col-md-4">
+						<a href="play4.html"><img src="images/video4.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play5.html"><img src="images/video5.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play6.html"><img src="images/video6.png" class="w-100" alt=""></a>
+					</div>
+				</div>
+				<div class="row pb-3">
+					<div class="col-md-4">
+						<a href="play7.html"><img src="images/video7.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play8.html"><img src="images/video8.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play9.html"><img src="images/video9.png" class="w-100" alt=""></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="play10.html"><img src="images/video10.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4">
+						<a href="play11.html"><img src="images/video11.png" class="w-100" alt=""></a>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>
+		</div>
+		<img src="images/movie_bg02_pc_2.png" class="w-100" alt="">
+	</div>
+	
+	<!--footer-->
+	<footer class="bg-img6">
+		<div class="container" style="position: relative;">
+			<div class="page-top" style="position: fixed; bottom: 0; right: 50px;">
+				<img src="images/pagetop__pc.png" alt="" class="w-80"
+				style="cursor: pointer;">
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

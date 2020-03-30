@@ -63,6 +63,7 @@ button.slick-next {
 .bg-img7 h2 {text-align: center;}
 .bg-img8{
 	background-image: url(../images/sub_main_bg_bottom.png);
+	background-repeat: repeat-y;
 }
 .bg-img9{
 	background-image: url(../images/sub_bg.png);
@@ -147,6 +148,12 @@ button.slick-next {
 	top: 50%;left: 50%;
 	transform: translate(-50%,-50%);*/
 	padding-top: 220px;
+}
+.movie img{float: left;}
+#yt{
+	position: absolute;
+	top: 50%; left: 50%;
+	margin-top: -143px; margin-left: -330px;
 }
 @media (max-width:959px) and (min-width:561px){
 	
