@@ -163,6 +163,10 @@ button.slick-next {
 		background-position: center;
 		height: 700px;
 	}
+	#yt{
+		width: 250px; height: 140px;
+		margin-top: -93px; margin-left: -125px;
+	}
 }
 
 
