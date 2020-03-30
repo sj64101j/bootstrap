@@ -126,18 +126,6 @@ button.slick-next {
 .bg-img12{
 	background-image: url(../images/back_ground2.png);
 }
-.mangaWrap{position: relative;}
-.manga{
-	position: absolute;
-	top: 50%;left: 50%;
-	transform: translate(-50%,-50%);
-	margin-top: 60px;
-	margin-left: 110px;
-}
-.manga:nth-child(2){
-	margin-top: 60px;
-	margin-left: -40px;
-}
 .bg-img13{
 	background-image: url(../images/bg-img13.png);
 }
@@ -150,7 +138,15 @@ button.slick-next {
 	background-image: url(../images/bg_manga__pc.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
+	height: 460px;
+	position: relative;
+}
+.manga{
+	/*position: absolute;
+	top: 50%;left: 50%;
+	transform: translate(-50%,-50%);*/
+	padding-top: 220px;
 }
 @media (max-width:959px) and (min-width:561px){
 	

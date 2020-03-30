@@ -13,7 +13,7 @@
 	<script>
 		$(function(){
 			$(".page-top").click(function(){
-				$("html,body").animate({scrollTop:0},1000);
+				$("html,body").animate({scrollTop:0},500);
 			});
 			$(window).scroll(function(){
 				var scrollY = $(window).scrollTop();
@@ -61,18 +61,32 @@
 	<div class="bg-img12 d-flex" style="height: 1000px;">
 		<div class="container m-auto">
 			<div class="row">
-				<div class="col-3"></div>
-				<div class="mangaWrap bg-img14 col-6 d-flex">
+				<div class="d-none d-md-block col-md-3"></div>
+				<div class="bg-img14 col-md-6">
 					<div class="manga">
-						<a href="manga1.html" class="d-block"><img src="images/btn_manga01__pc_off.png" class="w-100" alt=""></a>
-						<a href="manga3.html" class="d-block"><img src="images/btn_manga03__pc_off.png" class="w-100" alt=""></a>
-					</div>
-					<div class="manga">
-						<a href="manga2.html" class="d-block"><img src="images/btn_manga02__pc_off.png" class="w-100" alt=""></a>
-						<a href="manga4.html" class="d-block"><img src="images/btn_manga04__pc_off.png" class="w-100" alt=""></a>
+						<div class="row">
+							<div class="col-1"></div>
+							<div class="col-5 pb-2">
+								<a href="#!"><img src="images/btn_manga01__pc_off.png" class="w-100" alt=""></a>
+							</div>
+							<div class="col-5 pb-2">
+								<a href="#!"><img src="images/btn_manga02__pc_off.png" class="w-100" alt=""></a>
+							</div>
+							<div class="col-1"></div>
+						</div>
+						<div class="row">
+							<div class="col-1"></div>
+							<div class="col-5">
+								<a href="#!"><img src="images/btn_manga03__pc_off.png" class="w-100" alt=""></a>
+							</div>
+							<div class="col-5">
+								<a href="#!"><img src="images/btn_manga04__pc_off.png" class="w-100" alt=""></a>
+							</div>
+							<div class="col-md-1"></div>
+						</div>
 					</div>
 				</div>
-				<div class="col-3"></div>
+				<div class="d-none d-md-block col-md-3"></div>
 			</div>
 		</div>
 	</div>
