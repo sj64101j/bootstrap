@@ -1,5 +1,5 @@
 @charset utf-8;
-@font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal;}
 body {font-family: 'S-CoreDream-9Black';}
 .bg-img1 {
 	background-image: url(../images/visual_bg_pc.png);
@@ -159,9 +159,12 @@ button.slick-next {
 .content img:first-child{display: block;}
 
 @media (max-width:959px) and (min-width:561px){
-	
+	.bg_img5{background-image: url(../images/main_bottom_bgi_tb.png);}
 }
 @media (max-width:560px){
+	.bg-img5{
+		background-image: url(../images/main_bottom_bgi_mb.png);
+	}
 	.bg-img7 {
 		background-image: url(../images/sub_main_bg_top-mb.png);
 		background-position: center;
