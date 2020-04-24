@@ -61,7 +61,7 @@ button.slick-next {
 	background-position: center;
 	height: 700px;
 }
-.bg-img7 h2 {text-align: center;}
+.bg-img7 h2 {text-align: center;color: #333;}
 .bg-img8{
 	background-image: url(../images/sub_main_bg_bottom.png);
 	background-repeat: repeat-y;
